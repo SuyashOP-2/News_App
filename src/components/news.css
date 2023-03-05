@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .text {
+    flex: 1;
+   text-align: left;
+   
+  }
+  .div6{
+    font-size: 3rem;
+    margin-left:7rem;
+
+  }
+  .div7{
+    margin-left: 7rem;
+    font-size: 2rem;
+    font-weight: 300;
+   
+
+
+  }
+  .image {
+    flex: 0.7;
+    margin-right: 6.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+
+  }
+  .hidden {
+    display: none;
+  }
+  
+  .read-more-btn {
+    background-color: transparent;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  button{
+    color:blueviolet;
+  }
+  
+  .read-more-btn:hover {
+    color: darkblue;
+  }
+
+  @media only screen and (max-width: 768px) {
+    html {
+      font-size: 50%; /* Reduce the font size for smaller screens */
+    }
+  
+    .div6 {
+      font-size: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  
+    .div7 {
+      font-size: 1.6rem;
+      margin-left: 1rem;
+    }
+  
+    .image {
+      flex: 1;
+      width: 87%;
+      height: 100%;
+      
+    
+      
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .image {
+      order: -1;
+      margin: 0;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .read-more-btn {
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: blueviolet;
+      border-bottom: 1px solid blueviolet;
+    }
+  }
+
+ 
+
+  
+  
+
+    
+
+ 
+
+  
+
